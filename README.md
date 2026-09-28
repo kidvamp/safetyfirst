@@ -137,55 +137,111 @@
   <section id="view-adults" class="view">
     <button class="back-btn" data-target="landing">← Нүүр хуудас</button>
 
+    <div class="a-progress" aria-hidden="true"><span id="aProgress"></span></div>
+
     <div class="view-content">
       <div class="adults-hero">
+        <svg class="hero-shield" viewBox="0 0 120 120" aria-hidden="true"><circle class="ring r1" cx="60" cy="60" r="42"></circle><circle class="ring r2" cx="60" cy="60" r="42"></circle><path class="shield-body" d="M60 12 L100 26 V58 C100 84 82 100 60 108 C38 100 20 84 20 58 V26 Z"></path><path class="shield-check" d="M42 60 L55 73 L79 46"></path></svg>
         <h1>Хүүхдүүддээ интернетийг <span class="marker-coral">аюулгүй</span> судлахад нь туслаарай</h1>
         <p>Хамгийн чухал ярилцлага, тохиргооны талаарх товч, практик зөвлөмж — мөн хүүхдийн цахим аюулгүй байдлын сургуулийн судалгааны төсөлд шууд ашиглагдах хоёр минутын судалгаа.</p>
+        <div class="scroll-cue">Доош гүйлгээрэй <span>↓</span></div>
       </div>
 
-      <div class="callout">
-        <h3>Онлайн орчны нийтлэг эрсдэлүүд, энгийн үгээр</h3>
-        <ul>
-          <li><strong>Фишинг:</strong> нууц үг эсвэл банкны мэдээллийг хулгайлах зорилготой хуурамч мессеж, холбоос.</li>
-          <li><strong>Хортой программ:</strong> татаж авалт, холбоосоор нэвтэрдэг вирус, тагнуулын программ зэрэг хортой программ хангамж.</li>
-          <li><strong>Нийгмийн инженерчлэл:</strong> хүүхдээс хувийн мэдээлэл гаргаж авах зорилгоор итгэл олж авах үйлдэл.</li>
-          <li><strong>Цахим дээрэлхэлт:</strong> онлайнаар байнга дарамтлах, тусгаарлах, доромжлох үйлдэл.</li>
-        </ul>
-      </div>
+      <section class="a-wrap">
+        <div class="a-heading reveal">
+          <h2>Онлайн орчны 4 нийтлэг эрсдэл</h2>
+          <p>Эрсдэл бүр өөр өнгөтэй — гүйлгээд уншаарай.</p>
+        </div>
+        <article class="chapter t1 reveal">
+          <div class="ch-ico"><svg class="ico ico-phish" viewBox="0 0 120 120" aria-hidden="true"><g class="swing"><rect class="soft" x="26" y="82" width="40" height="28" rx="4"></rect><path d="M26 86 L46 100 L66 86"></path><line x1="60" y1="0" x2="60" y2="46"></line><path d="M60 46 V72 a14 14 0 0 1 -28 0 v-6"></path></g></svg></div>
+          <div class="ch-body">
+            <span class="ch-badge">Эрсдэл 1 / 4</span>
+            <h2>Фишинг</h2>
+            <p class="ch-lead">Нууц үг, банкны мэдээллийг хулгайлах зорилготой хуурамч мессеж, холбоос.</p>
+            <div class="ch-row"><span class="ch-tag">Шинж тэмдэг</span><span>«Яаралтай!», «Одоо дар!» гэсэн айлгасан эсвэл хэт урамшуулсан үг, танихгүй илгээгч, үсгийн алдаатай мессеж.</span></div>
+            <div class="ch-row"><span class="ch-tag">Юу хийх вэ</span><span>Холбоос дээр дарахаасаа өмнө зогсоод, тухайн байгууллагын албан ёсны сайт, аппаар дамжуулан шалгаарай.</span></div>
+            <div class="ch-row say"><span class="ch-tag">Хүүхдэд хэлэх</span><span>«Сэжигтэй мессеж ирвэл дарахаасаа өмнө надад үзүүлээрэй.»</span></div>
+          </div>
+        </article>
+        <article class="chapter t2 flip reveal">
+          <div class="ch-ico"><svg class="ico ico-bug" viewBox="0 0 120 120" aria-hidden="true"><g class="bug"><ellipse class="soft" cx="60" cy="72" rx="24" ry="30"></ellipse><circle class="soft" cx="60" cy="34" r="12"></circle><path class="ant" d="M53 24 L47 11 M67 24 L73 11"></path><path d="M36 58 L18 50 M36 74 L16 76 M38 90 L22 102 M84 58 L102 50 M84 74 L104 76 M82 90 L98 102"></path><path d="M60 46 V102"></path></g></svg></div>
+          <div class="ch-body">
+            <span class="ch-badge">Эрсдэл 2 / 4</span>
+            <h2>Хортой программ</h2>
+            <p class="ch-lead">Татаж авалт, холбоосоор дамжин орж ирдэг вирус, тагнуулын программ зэрэг хортой программ хангамж.</p>
+            <div class="ch-row"><span class="ch-tag">Шинж тэмдэг</span><span>Төхөөрөмж гэнэт удаашрах, өөрөө суулгаагүй апп гарч ирэх, хэт олон сурталчилгаа харагдах.</span></div>
+            <div class="ch-row"><span class="ch-tag">Юу хийх вэ</span><span>Апп-ыг зөвхөн албан ёсны дэлгүүрээс татаж, төхөөрөмж болон программаа тогтмол шинэчилж байгаарай.</span></div>
+            <div class="ch-row say"><span class="ch-tag">Хүүхдэд хэлэх</span><span>«Ямар нэг юм татаж авахаасаа өмнө надаас асуугаарай.»</span></div>
+          </div>
+        </article>
+        <article class="chapter t3 reveal">
+          <div class="ch-ico"><svg class="ico ico-chat" viewBox="0 0 120 120" aria-hidden="true"><g class="b1"><rect class="soft" x="8" y="14" width="70" height="44" rx="12"></rect><path class="soft" d="M22 58 L16 74 L38 58 Z"></path><circle cx="30" cy="36" r="4.5" fill="currentColor" stroke="none"></circle><circle cx="43" cy="36" r="4.5" fill="currentColor" stroke="none"></circle><circle cx="56" cy="36" r="4.5" fill="currentColor" stroke="none"></circle></g><g class="b2"><rect class="soft" x="42" y="62" width="70" height="40" rx="12"></rect><path class="soft" d="M96 102 L104 116 L82 102 Z"></path><text x="77" y="93" text-anchor="middle" font-size="30" font-weight="800" fill="currentColor" stroke="none">?</text></g></svg></div>
+          <div class="ch-body">
+            <span class="ch-badge">Эрсдэл 3 / 4</span>
+            <h2>Нийгмийн инженерчлэл</h2>
+            <p class="ch-lead">Хүүхдээс хувийн мэдээлэл гаргаж авахын тулд эхлээд итгэл олж авдаг заль мэх.</p>
+            <div class="ch-row"><span class="ch-tag">Шинж тэмдэг</span><span>Онлайнаар танилцсан хүн хэт эелдэг ханддаг, харилцаагаа нууцлахыг гуйдаг, бэлэг эсвэл тоглоомын оноо амладаг.</span></div>
+            <div class="ch-row"><span class="ch-tag">Юу хийх вэ</span><span>Хүүхдээ шүүмжлэлгүйгээр сонсож, хаяг, утасны дугаараа хэнд ч өгөхгүй байхыг тайван зааж өгөөрэй.</span></div>
+            <div class="ch-row say"><span class="ch-tag">Хүүхдэд хэлэх</span><span>«Хэн нэгэн чамаас нууц гуйвал надад хэлээрэй. Чи буруу зүйл хийгээгүй.»</span></div>
+          </div>
+        </article>
+        <article class="chapter t4 flip reveal">
+          <div class="ch-ico"><svg class="ico ico-heart" viewBox="0 0 120 120" aria-hidden="true"><path class="soft heart" d="M60 102 C20 74 14 46 32 32 C46 22 58 32 60 40 C62 32 74 22 88 32 C106 46 100 74 60 102 Z"></path><path class="spark s1" d="M100 14 v14 M93 21 h14"></path><path class="spark s2" d="M16 82 v10 M11 87 h10"></path></svg></div>
+          <div class="ch-body">
+            <span class="ch-badge">Эрсдэл 4 / 4</span>
+            <h2>Цахим дээрэлхэлт</h2>
+            <p class="ch-lead">Онлайнаар байнга дарамтлах, тусгаарлах, доромжлох үйлдэл.</p>
+            <div class="ch-row"><span class="ch-tag">Шинж тэмдэг</span><span>Төхөөрөмжөөсөө гэнэт зайлсхийх, сэтгэл санаа огцом өөрчлөгдөх, сургуульд явахаас дургүйцэх.</span></div>
+            <div class="ch-row"><span class="ch-tag">Юу хийх вэ</span><span>Тайван сонсож, мессеж, зургийг хадгалаад, дээрэлхэгчийг хаагаад (блоклоод), платформд мэдээлээрэй.</span></div>
+            <div class="ch-row say"><span class="ch-tag">Хүүхдэд хэлэх</span><span>«Энэ чиний буруу биш. Би чиний талд байна.»</span></div>
+          </div>
+        </article>
+      </section>
 
-      <div class="section-label">Хаанаас эхлэх вэ</div>
-      <div class="resource-grid">
-        <div class="resource-card pop-card">
+      <section class="a-wrap">
+        <div class="a-heading reveal">
+          <h2>Хаанаас эхлэх вэ</h2>
+          <p>Гэр бүлтэйгээ ярилцаж эхлэхэд туслах эх сурвалжууд.</p>
+        </div>
+        <div class="tips">
+        <div class="tip-card t5 reveal">
+          <span class="emo wave" aria-hidden="true">👋</span>
           <h3>Танихгүй хүмүүсийн тухай ярилцах нь</h3>
           <p>Биечлэн уулзаж байгаагүй хүмүүст хувийн мэдээлэл өгөх ёсгүйг айлгалгүйгээр тайлбарлах арга, хэн нэгэн асуувал юу хийх талаар зөвлөнө.</p>
           <a href="https://www.missingkids.org/netsmartz/home" target="_blank" rel="noopener">NetSmartz (NCMEC) →</a>
         </div>
-        <div class="resource-card pop-card">
+        <div class="tip-card t2 reveal">
+          <span class="emo swing" aria-hidden="true">🔑</span>
           <h3>Нууц үг ба бүртгэл</h3>
           <p>Хүүхдүүд өөрсдөө апп, тоглоомд бүртгүүлж эхлэхээс өмнө насанд нь тохирсон нууц үгийн аюулгүй хэрэглээ, бүртгэлийн эзэмшлийн тухай ойлголт өгөх арга замууд.</p>
           <a href="https://www.commonsensemedia.org/" target="_blank" rel="noopener">Common Sense Media →</a>
         </div>
-        <div class="resource-card pop-card">
+        <div class="tip-card t3 reveal">
+          <span class="emo flip" aria-hidden="true">⏳</span>
           <h3>Дэлгэцийн цаг ба тэнцвэр</h3>
           <p>Бүх гэр бүлд адилхан тохирох цагийн хязгаар байхгүй тул өөрийн гэр бүлдээ тохирсон хязгаар тогтоох аргыг танилцуулна.</p>
           <a href="https://www.fosi.org/" target="_blank" rel="noopener">Family Online Safety Institute →</a>
         </div>
-        <div class="resource-card pop-card">
+        <div class="tip-card t4 reveal">
+          <span class="emo bounce" aria-hidden="true">💬</span>
           <h3>Цахим дээрэлхэлт ба цахим ёс зүй</h3>
           <p>Хүүхэд дээрэлхүүлж байгаа (эсвэл өөр хэн нэгнийг дээрэлхэж байгаа) шинж тэмдгийг таних, тайван хариу үйлдэл үзүүлэх арга.</p>
           <a href="https://www.nspcc.org.uk/keeping-children-safe/online-safety/" target="_blank" rel="noopener">NSPCC Online Safety →</a>
         </div>
-        <div class="resource-card pop-card">
+        <div class="tip-card t6 reveal">
+          <span class="emo pulse" aria-hidden="true">🛡️</span>
           <h3>Эцэг эхийн хяналтыг тохируулах</h3>
           <p>Утас, таблет, тоглоомын консол, Wi-Fi роутер дээрх стандарт хяналтын тохиргоог алхам алхмаар тайлбарлана.</p>
           <a href="https://www.connectsafely.org/" target="_blank" rel="noopener">ConnectSafely →</a>
         </div>
-        <div class="resource-card pop-card">
+        <div class="tip-card t1 reveal">
+          <span class="emo blink" aria-hidden="true">🚨</span>
           <h3>Санаа зовоосон зүйлээ мэдээлэх</h3>
           <p>Мөлжлөг, урхидах оролдлого, хортой агуулгын талаар сэжиглэвэл хаана мэдээлэх, мэдээлсний дараа юу болохыг тайлбарлана.</p>
           <a href="https://report.cybertip.org/" target="_blank" rel="noopener">CyberTipline →</a>
         </div>
-      </div>
+        </div>
+      </section>
 
       <div class="further-links">
         <p class="lead">Хавчуургад нэмж болох бусад байгууллагууд:</p>
@@ -203,6 +259,7 @@
           <div class="survey-body">
             <h3>Хоёр минутын судалгаа</h3>
             <p>Нэрээ нууцалсан — таны хариулт хүүхдийн онлайн аюулгүй байдлын сургуулийн судалгааны төсөлд тусална.</p>
+            <p class="adult-done" id="adultDone" hidden="">Та энэ судалгааг аль хэдийн илгээсэн байна. Хариултынхаа төлөө баярлалаа!</p>
             <form id="adultForm">
               <div class="field">
                 <label for="ageRange">Таны асран хамгаалж буй хүүхдийн насны ангилал</label>
